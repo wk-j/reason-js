@@ -1,13 +1,13 @@
+S src
 ####{BSB GENERATED: NO EDIT
-FLG -ppx '/usr/local/lib/node_modules/bs-platform/bin/reactjs_jsx_ppx_2.exe'
-FLG -ppx /usr/local/lib/node_modules/bs-platform/bin/bsppx.exe
-S /Users/wk/Source/reason-js/node_modules/bs-platform/lib/ocaml
-B /Users/wk/Source/reason-js/node_modules/bs-platform/lib/ocaml
-FLG -nostdlib -no-alias-deps -color always -w -40+6+7+27+32..39+44+45
-S /Users/wk/Source/reason-js/node_modules/reason-react/lib/ocaml
-B /Users/wk/Source/reason-js/node_modules/reason-react/lib/ocaml
-S /Users/wk/Source/reason-js/node_modules/bs-jest/lib/ocaml
-B /Users/wk/Source/reason-js/node_modules/bs-jest/lib/ocaml
+FLG -ppx '/Users/wk/Source/ReasonJs/node_modules/bs-platform/lib/reactjs_jsx_ppx_2.exe'
+FLG -ppx /Users/wk/Source/ReasonJs/node_modules/bs-platform/lib/bsppx.exe
+S /Users/wk/Source/ReasonJs/node_modules/bs-platform/lib/ocaml
+B /Users/wk/Source/ReasonJs/node_modules/bs-platform/lib/ocaml
+FLG -nostdlib -no-alias-deps -color always
+FLG -w -30-40+6+7+27+32..39+44+45+101
+S /Users/wk/Source/ReasonJs/node_modules/reason-react/lib/ocaml
+B /Users/wk/Source/ReasonJs/node_modules/reason-react/lib/ocaml
 S src
 B lib/bs/src
 ####BSB GENERATED: NO EDIT}

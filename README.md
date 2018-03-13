@@ -1,14 +1,7 @@
-## Reason Js
-
-
-### Create this app
+## Reason
 
 ```
-yarn create react-app reason-js -- --scripts-version reason-scripts
-```
-
-### Start
-
-```
-yarn start
+npm install -g reason-cli@3.1.0-darwin
+npm start
+open localhost:1234
 ```
