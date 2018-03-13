@@ -3,3 +3,4 @@ dist
 lib
 .cache
 *.bs.js
+.merlin
